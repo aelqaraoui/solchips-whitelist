@@ -5,8 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #303030;
-  color: #FFFFFF;
+  color: gray;
+  text-align: center;
+  background-image: url("bg.png");
+  background-size: 100%;
+}
+
+main {
+  margin-top: 10%;
 }
 
 code {

@@ -199,6 +199,8 @@ const Home = (props: HomeProps) => {
 
   return (
     <main>
+      <h1>Solana Chips</h1>
+
       {wallet && (
         <p>Wallet {shortenAddress(wallet.publicKey.toBase58() || "")}</p>
       )}
